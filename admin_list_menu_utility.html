@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p>
+        <center><font size="5" color="#3d3dd4" face="garamond">Управление данными</font>
+        <p>
+        <table border = 2 width = 60% height = 16%>
+            <tr>
+                <td>
+                    <form class="delete" method="get"> 
+                    <center><b><font size="4" color="#3d3dd4" face="garamond">Удаление сотрудников</font></b><br>
+                    <br>
+                    <table>
+                        <tr>
+                            <td><label><b>Введите id:   </b></label></td>
+                            <td><input class="id1" type="text" name = "id1"  maxlength = 10 size = 10></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input class="button1" type="submit" name="delete"  value="Удалить сотрудника"><br><br></center>
+                    </form>
+                </td>
+                <td>
+                    <form  class="update" method="get"> 
+                    <center><b><font size="4" color="#3d3dd4" face="garamond">Обновление информации сотрудников</font></b><br>
+                    <br>
+                    <table>
+                        <tr>
+                            <td><label><b>Введите id:   </b></label></td>
+                            <td><input class="id2" type="text" name = "id2"  maxlength = "10" size = 10></td>
+                            <td><label><b>Выберите поле:   </b></label></td>
+                            <td>
+                            <select id="atributes" name="atributes">
+                                <option value="Выбор">Выберите параметр</option>
+                                <option value="Зарплата">Зарплата</option>
+                                <option value="Рабочая неделя">Рабочая неделя</option>
+                                <option value="Должность">Должность</option>
+                            </select>
+                            </td>
+                            <td><label><b>Введите значение:   </b></label></td>
+                            <td><input class="value" type="text" name = "value"  maxlength = "40" size = 30></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input class="button2" type="submit" name="update"  value="Изменить сотрудника"><br><br></center>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

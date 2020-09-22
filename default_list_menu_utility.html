@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form  class="update" method="get"> 
+            <p>
+            <center><b><font size="4" color="#3d3dd4" face="garamond">Поиск сотрудников по заданному критерию</font></b><br></center> 
+            <p>
+            <table width = 20% height = 5%><center>
+                    <tr>
+                        <td><label><b>Выбрано поле:   </b></label>
+                        <td><label><b>Введите значение:   </b></label></td>
+                   </tr>
+                    <tr>
+                        <td>
+                        <select id="atributes" name="atributes">
+                            <option value="Выберите параметр">Выберите параметр</option>
+                            <option value="ID">ID</option>
+                            <option value="Имя">Имя</option>
+                            <option value="Фамилия">Фамилия</option>
+                            <option value="Дата рождения">Дата рождения</option>
+                            <option value="Зарплата">Зарплата</option>
+                            <option value="Рабочая неделя">Рабочая неделя</option>
+                            <option value="Должность">Должность</option>
+                        </select>
+                        </td>
+                        <td><input class="value" type="text" name = "value"  maxlength = "30" size = 30></td>
+                    </tr>
+            </table>
+            <input class="button1" type="submit" name="search"  value="Найти сотрудников"><br><br>
+        </form>  
+    </body>
+</html>

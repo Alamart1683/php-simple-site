@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Авторизация</title>
+    <meta charset="UTF-8">
+</head>
+    <body>
+        <style>
+        @import "menu_style.css" screen; 
+        </style>
+        <ul>
+            <li><a href="index.php">О проекте</a></li>
+            <li><a href="guest_list_menu.html">Список сотрудников</a></li>  
+            <li><a href="auth.php" class="current">Авторизация</a></li>
+            <li><a href="reg.php">Регистрация</a></li>  
+        </ul><br><br>
+        <center><b><font size="5" color="#3d3dd4" face="garamond">Авторизация в системе</font></b>
+        <form class="auth" method="get"> 
+        <table><tr><td><label>Введите ваш логин:</label></td>
+        <td><input class="login" type="text" name = "login"  maxlength = "20"></td></tr><br>
+        <tr><td><label>Введите ваш пароль:<label></td>
+        <td><input class="password" type="pass" name = "password"  maxlength = "20"></td></tr></table><br>
+        <input class="button" type="submit" name="entrance"  value="Войти"><br><br></center>
+    </body>
+</html>
